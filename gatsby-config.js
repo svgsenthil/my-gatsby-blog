@@ -4,9 +4,9 @@
 const adapter = require("gatsby-adapter-netlify")
 
 module.exports = {
-  adapter: adapter({
-    excludeDatastoreFromEngineFunction: false,
-  }),
+  // adapter: adapter({
+  //   excludeDatastoreFromEngineFunction: false,
+  // }),
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
